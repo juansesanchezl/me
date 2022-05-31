@@ -27,14 +27,24 @@ function sendEmail() {
 		data: JSON.stringify(data),
 		contentType: 'application/json'
 	}).done(function() {
-		alert('Your mail is sent!');
+		//alert('Your mail is sent!');
 		document.getElementById("fname").value = "";
 		document.getElementById("lname").value = "";
 		document.getElementById("email").value = "";
 		document.getElementById("subject").value = "";
 		document.getElementById("message").value = "";
+		Swal.fire(
+			'Mail Sent!',
+			'Your message has been sent!',
+			'success'
+		);
 	}).fail(function(error) {
-		alert('Oops... ' + JSON.stringify(error));
+		//alert('Oops... ' + JSON.stringify(error));
+		Swal.fire(
+			'Error!!',
+			'Oops... ' + JSON.stringify(error),
+			'error'
+		);
 	});
 }
 
@@ -43,6 +53,10 @@ function sendEmail() {
 https://medium.com/nerd-for-tech/send-emails-direct-from-javascript-b58966154681
 https://www.emailjs.com/docs/rest-api/send/
 */
+
+// Alerts
+
+//https://sweetalert2.github.io/#download
 
 // code fragment
 
