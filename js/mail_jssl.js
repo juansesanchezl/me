@@ -38,7 +38,11 @@ function sendEmail() {
 	});
 }
 
-
+//MAIL SERVICE JS
+/*
+https://medium.com/nerd-for-tech/send-emails-direct-from-javascript-b58966154681
+https://www.emailjs.com/docs/rest-api/send/
+*/
 
 // code fragment
 
