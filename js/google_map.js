@@ -1,5 +1,5 @@
 
-var google;
+/*var google;
 
 function init() {
     // Basic options for a simple Google Map
@@ -47,3 +47,4 @@ function init() {
     
 }
 google.maps.event.addDomListener(window, 'load', init);
+*/

@@ -132,6 +132,9 @@
 	// Loading page
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
+		var dt = new Date();
+		var actualYear =  dt.getFullYear();
+		document.getElementById("year_html").innerHTML = actualYear;
 	};
 
 	
