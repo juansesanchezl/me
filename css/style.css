@@ -1541,3 +1541,8 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media (min-width: 992px) {
+  .columnW {
+    width: 50%;
+  }
+}
