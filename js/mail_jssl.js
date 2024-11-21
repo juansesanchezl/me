@@ -10,9 +10,9 @@ function sendEmail() {
 	//console.log(name + " " + email + " " + subject + " " + message);
 
 	var data = {
-		service_id: 'service_i02s0s8',
-		template_id: 'template_im8eywj',
-		user_id: 'HWweiIm_WRHecHode',
+		service_id: 'service_7zw4ndt',
+		template_id: 'template_y5huemt',
+		user_id: 'jSCWXXDm7vKkjwxaA',
 		template_params: {
 			'from_name':name,
 			'to_name':'Juan Sebastian',
